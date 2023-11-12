@@ -1,0 +1,12 @@
+.fotoDiv {
+  border: solid red;
+  border-radius: 20px;
+  width: 20%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}

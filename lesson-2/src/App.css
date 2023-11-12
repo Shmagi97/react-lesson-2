@@ -1,0 +1,8 @@
+.movieDiv {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  border: solid rgb(16, 16, 16);
+  border-radius: 10%;
+}
