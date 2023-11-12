@@ -1,4 +1,4 @@
-import Movie from "./Movie";
+import Movie from "./Movie"
 import './App.css'
 
 function App (){
@@ -17,8 +17,8 @@ function App (){
       {MovieList.map(movie => {
        <Movie/>
       })}
-
-
+     
+     <Movie/>
      
     </div>
   )
