@@ -1,13 +1,13 @@
 import './Movie.css'
 
-const Movie = () => {
+const Movie = ({mimgebi}) => {
 
     return (
         <div className="fotoDiv">
             
           <img  
           
-          src="https://rachel.on.ge/2018/11/02/1541153564.jpg" alt="" />
+          src={mimgebi} alt="" />
         </div>
     )
 

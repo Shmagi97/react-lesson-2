@@ -14,11 +14,13 @@ function App (){
   return(
     <div className="movieDiv">
 
-      {MovieList.map(movie => {
-       <Movie/>
-      })}
+     
+      {MovieList.map(gamcemi => (
+        <Movie
+        mimgebi={gamcemi}
+        />
+      ))}
       
-      <Movie/>
      
     </div>
   )
