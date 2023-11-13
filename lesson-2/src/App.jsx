@@ -17,7 +17,9 @@ function App (){
      
       {MovieList.map(gamcemi => (
         <Movie
-        mimgebi={gamcemi}
+        image={gamcemi}
+        time={123}
+        title={"titaniki"}
         />
       ))}
       

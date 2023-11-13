@@ -1,13 +1,15 @@
 import './Movie.css'
 
-const Movie = ({mimgebi}) => {
+const Movie = (props) => {
 
     return (
         <div className="fotoDiv">
             
           <img  
           
-          src={mimgebi} alt="" />
+          src={props.image} alt="" />
+          {props.time}
+          {props.title}
         </div>
     )
 
