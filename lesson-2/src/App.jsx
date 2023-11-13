@@ -17,8 +17,8 @@ function App (){
       {MovieList.map(movie => {
        <Movie/>
       })}
-     
-     <Movie/>
+      
+      <Movie/>
      
     </div>
   )
